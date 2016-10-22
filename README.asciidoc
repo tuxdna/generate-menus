@@ -35,3 +35,8 @@ Rules:
 === Reference and code for Apriori algorithm:
 
  * http://aimotion.blogspot.in/2013/01/machine-learning-and-data-mining.html[Machine learning and Data Mining - Association Analysis with Python]
+
+=== Dataset Used
+
+ * http://archive.ics.uci.edu/ml/datasets/Anonymous+Microsoft+Web+Data[Anonymous Microsoft Web Data Data Set]
+
