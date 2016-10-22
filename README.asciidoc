@@ -1,0 +1,37 @@
+=== Sample usecase of Rule mining
+
+Given a set of transactions, how to generate dynamic menus.
+
+----
+$ sh -x setup.sh 
+... OUTPUT SKIPPED ...
+Rules:
+52.0604 % chance that: /officefreestuff => /office
+61.4000 % chance that: /workshop => /sitebuilder
+68.8836 % chance that: /word => /msdownload
+54.0480 % chance that: /windowssupport => /support
+84.1429 % chance that: /windowssupport => /isapi
+54.4041 % chance that: /gallery => /sitebuilder
+55.0778 % chance that: /windows => /msdownload
+53.1897 % chance that: /windows95 => /products
+51.6846 % chance that: /kb => /isapi
+80.4505 % chance that: /sbnmember => /sitebuilder
+60.8491 % chance that: /kb => /support
+91.4655 % chance that: /windows95 => /windows
+59.9665 % chance that: /windowssupport => /windows
+70.2830 % chance that: /iesupport => /ie
+79.2808 % chance that: /ntworkstation => /windows
+51.2363 % chance that: /officefreestuff => /regwiz
+56.0588 % chance that: /ie => /msdownload
+77.0042 % chance that: /netmeeting => /msdownload
+52.4846 % chance that: /windowssupport => /isapi,/windows
+51.8595 % chance that: /support,/windowssupport => /kb,/isapi
+63.5443 % chance that: /kb,/windowssupport => /support,/isapi
+62.0112 % chance that: /windowssupport,/windows => /isapi,/msdownload
+74.8315 % chance that: /msdownload,/windowssupport => /isapi,/windows
+----
+
+
+=== Reference and code for Apriori algorithm:
+
+ * http://aimotion.blogspot.in/2013/01/machine-learning-and-data-mining.html[Machine learning and Data Mining - Association Analysis with Python]
